@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-09-25T07:49:34.931Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/93.0.4577.82 Safari/537.36" etag="aqDQEx7KZ7KnlqjSb4qF" version="15.3.1" type="github">
+<mxfile host="app.diagrams.net" modified="2021-09-25T07:55:11.225Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/93.0.4577.82 Safari/537.36" etag="40gMnjCILS1tWbHrU9rZ" version="15.3.1" type="github" pages="2">
   <diagram id="Kxp6poQEY132oB3bIeXi" name="Factory pattern">
     <mxGraphModel dx="1422" dy="762" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
       <root>
@@ -289,6 +289,170 @@
         </mxCell>
         <mxCell id="8ZRqN8sI5yspYNJ6K8ML-13" value="+ Prototype(tString, int):  &#xa;toString():                             String&#xa;copy():                                 Object" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="8ZRqN8sI5yspYNJ6K8ML-10">
           <mxGeometry y="68" width="199.37" height="52" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram id="rZzAtHSpzf7i5XEY3dZc" name="Abctract factory">
+    <mxGraphModel dx="981" dy="526" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
+      <root>
+        <mxCell id="Gv3ldSOWGJSYCYZ-ROL5-0" />
+        <mxCell id="Gv3ldSOWGJSYCYZ-ROL5-1" parent="Gv3ldSOWGJSYCYZ-ROL5-0" />
+        <mxCell id="gOkglkHOGyMFSGOslpvL-0" value="«interface»&lt;br&gt;&lt;b&gt;Varrior&lt;br&gt;void createVarrior();&lt;br&gt;&lt;/b&gt;" style="html=1;" vertex="1" parent="Gv3ldSOWGJSYCYZ-ROL5-1">
+          <mxGeometry x="198" y="777" width="125" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="gOkglkHOGyMFSGOslpvL-1" value="«interface»&lt;br&gt;&lt;b&gt;Archer&lt;br&gt;void createArcher();&lt;br&gt;&lt;/b&gt;" style="html=1;" vertex="1" parent="Gv3ldSOWGJSYCYZ-ROL5-1">
+          <mxGeometry x="413" y="777" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="gOkglkHOGyMFSGOslpvL-2" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=block;endFill=0;" edge="1" parent="Gv3ldSOWGJSYCYZ-ROL5-1" source="gOkglkHOGyMFSGOslpvL-3">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="253" y="777" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="253" y="760" />
+              <mxPoint x="253" y="760" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="gOkglkHOGyMFSGOslpvL-3" value="VikingsVarrior" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;" vertex="1" parent="Gv3ldSOWGJSYCYZ-ROL5-1">
+          <mxGeometry x="163" y="637" width="180" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="gOkglkHOGyMFSGOslpvL-4" value="+ vikingVarrior: int" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="gOkglkHOGyMFSGOslpvL-3">
+          <mxGeometry y="26" width="180" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="gOkglkHOGyMFSGOslpvL-5" value="" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;" vertex="1" parent="gOkglkHOGyMFSGOslpvL-3">
+          <mxGeometry y="52" width="180" height="8" as="geometry" />
+        </mxCell>
+        <mxCell id="gOkglkHOGyMFSGOslpvL-6" value="+ VikingsVarrior(): &#xa;+ amountOfVikingVarrior(): void&#xa;+ createVarrior(): void" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="gOkglkHOGyMFSGOslpvL-3">
+          <mxGeometry y="60" width="180" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="gOkglkHOGyMFSGOslpvL-7" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=block;endFill=0;" edge="1" parent="Gv3ldSOWGJSYCYZ-ROL5-1" source="gOkglkHOGyMFSGOslpvL-8">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="478" y="777" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="478" y="760" />
+              <mxPoint x="478" y="760" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="gOkglkHOGyMFSGOslpvL-8" value="VikingsArcher" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;" vertex="1" parent="Gv3ldSOWGJSYCYZ-ROL5-1">
+          <mxGeometry x="388" y="637" width="180" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="gOkglkHOGyMFSGOslpvL-9" value="+ vikingVarrior: int" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="gOkglkHOGyMFSGOslpvL-8">
+          <mxGeometry y="26" width="180" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="gOkglkHOGyMFSGOslpvL-10" value="" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;" vertex="1" parent="gOkglkHOGyMFSGOslpvL-8">
+          <mxGeometry y="52" width="180" height="8" as="geometry" />
+        </mxCell>
+        <mxCell id="gOkglkHOGyMFSGOslpvL-11" value="+ VikingsVarrior(): &#xa;+ amountOfVikingVarrior(): void&#xa;+ createVarrior(): void" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="gOkglkHOGyMFSGOslpvL-8">
+          <mxGeometry y="60" width="180" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="gOkglkHOGyMFSGOslpvL-12" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=block;endFill=0;" edge="1" parent="Gv3ldSOWGJSYCYZ-ROL5-1" source="gOkglkHOGyMFSGOslpvL-13" target="gOkglkHOGyMFSGOslpvL-0">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="253" y="857" />
+              <mxPoint x="253" y="857" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="gOkglkHOGyMFSGOslpvL-13" value="FrenchVarrior" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;" vertex="1" parent="Gv3ldSOWGJSYCYZ-ROL5-1">
+          <mxGeometry x="158" y="857" width="190" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="gOkglkHOGyMFSGOslpvL-14" value="+ frenchVarrior: int" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="gOkglkHOGyMFSGOslpvL-13">
+          <mxGeometry y="26" width="190" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="gOkglkHOGyMFSGOslpvL-15" value="" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;" vertex="1" parent="gOkglkHOGyMFSGOslpvL-13">
+          <mxGeometry y="52" width="190" height="8" as="geometry" />
+        </mxCell>
+        <mxCell id="gOkglkHOGyMFSGOslpvL-16" value="+ frenchVarrior(): &#xa;+ amountOfFrenchVarrior(): void&#xa;+ createVarrior(): void" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="gOkglkHOGyMFSGOslpvL-13">
+          <mxGeometry y="60" width="190" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="gOkglkHOGyMFSGOslpvL-17" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=block;endFill=0;" edge="1" parent="Gv3ldSOWGJSYCYZ-ROL5-1" source="gOkglkHOGyMFSGOslpvL-18">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="478" y="837" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="478" y="857" />
+              <mxPoint x="478" y="857" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="gOkglkHOGyMFSGOslpvL-18" value="FrenchArcher" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;" vertex="1" parent="Gv3ldSOWGJSYCYZ-ROL5-1">
+          <mxGeometry x="380.5" y="857" width="195" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="gOkglkHOGyMFSGOslpvL-19" value="+ frenchVarrior: int" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="gOkglkHOGyMFSGOslpvL-18">
+          <mxGeometry y="26" width="195" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="gOkglkHOGyMFSGOslpvL-20" value="" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;" vertex="1" parent="gOkglkHOGyMFSGOslpvL-18">
+          <mxGeometry y="52" width="195" height="8" as="geometry" />
+        </mxCell>
+        <mxCell id="gOkglkHOGyMFSGOslpvL-21" value="+ FrenchArcher(): &#xa;+ amountOfFrenchArcher(): void&#xa;+ createArcher(): void" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="gOkglkHOGyMFSGOslpvL-18">
+          <mxGeometry y="60" width="195" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="gOkglkHOGyMFSGOslpvL-22" value="«interface»&lt;br&gt;&lt;b&gt;FactoryVarrior&lt;br&gt;Archer createArcher();&lt;br&gt;Varrior createVarrior();&lt;br&gt;&lt;/b&gt;" style="html=1;" vertex="1" parent="Gv3ldSOWGJSYCYZ-ROL5-1">
+          <mxGeometry x="630.5" y="757" width="145" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="gOkglkHOGyMFSGOslpvL-23" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=block;endFill=0;dashed=1;" edge="1" parent="Gv3ldSOWGJSYCYZ-ROL5-1" source="gOkglkHOGyMFSGOslpvL-26" target="gOkglkHOGyMFSGOslpvL-22">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="gOkglkHOGyMFSGOslpvL-24" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;dashed=1;endArrow=open;endFill=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="Gv3ldSOWGJSYCYZ-ROL5-1" source="gOkglkHOGyMFSGOslpvL-26" target="gOkglkHOGyMFSGOslpvL-3">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="183" y="67" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="702" y="587" />
+              <mxPoint x="253" y="587" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="gOkglkHOGyMFSGOslpvL-25" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.472;entryY=0;entryDx=0;entryDy=0;entryPerimeter=0;dashed=1;endArrow=open;endFill=0;" edge="1" parent="Gv3ldSOWGJSYCYZ-ROL5-1" source="gOkglkHOGyMFSGOslpvL-26" target="gOkglkHOGyMFSGOslpvL-8">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="702" y="587" />
+              <mxPoint x="473" y="587" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="gOkglkHOGyMFSGOslpvL-26" value="VikingsFactory" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;" vertex="1" parent="Gv3ldSOWGJSYCYZ-ROL5-1">
+          <mxGeometry x="622.38" y="662" width="160" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="gOkglkHOGyMFSGOslpvL-27" value="+ createArcher(): Archer&#xa;+ createVarrior(): Varrior" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="gOkglkHOGyMFSGOslpvL-26">
+          <mxGeometry y="26" width="160" height="44" as="geometry" />
+        </mxCell>
+        <mxCell id="gOkglkHOGyMFSGOslpvL-28" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;dashed=1;endArrow=block;endFill=0;" edge="1" parent="Gv3ldSOWGJSYCYZ-ROL5-1" source="gOkglkHOGyMFSGOslpvL-29" target="gOkglkHOGyMFSGOslpvL-22">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="gOkglkHOGyMFSGOslpvL-29" value="FrenchFactory" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;" vertex="1" parent="Gv3ldSOWGJSYCYZ-ROL5-1">
+          <mxGeometry x="623" y="882" width="160" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="gOkglkHOGyMFSGOslpvL-30" value="+ createArcher(): Archer&#xa;+ createVarrior(): Varrior" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="gOkglkHOGyMFSGOslpvL-29">
+          <mxGeometry y="26" width="160" height="44" as="geometry" />
+        </mxCell>
+        <mxCell id="gOkglkHOGyMFSGOslpvL-31" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=open;endFill=0;" edge="1" parent="Gv3ldSOWGJSYCYZ-ROL5-1" source="gOkglkHOGyMFSGOslpvL-33" target="gOkglkHOGyMFSGOslpvL-22">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="gOkglkHOGyMFSGOslpvL-32" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;endArrow=open;endFill=0;" edge="1" parent="Gv3ldSOWGJSYCYZ-ROL5-1" source="gOkglkHOGyMFSGOslpvL-33" target="gOkglkHOGyMFSGOslpvL-0">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="813" y="807" />
+              <mxPoint x="813" y="547" />
+              <mxPoint x="133" y="547" />
+              <mxPoint x="133" y="807" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="gOkglkHOGyMFSGOslpvL-33" value="MainClass" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;" vertex="1" parent="Gv3ldSOWGJSYCYZ-ROL5-1">
+          <mxGeometry x="842" y="757" width="220" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="gOkglkHOGyMFSGOslpvL-34" value="FactoryVarrior factoryVarrior ;&#xa;factoryVarrior = new VikingsFactory();&#xa;factoryVarrior.createArcher();&#xa;factoryVarrior.createVarrior();" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="gOkglkHOGyMFSGOslpvL-33">
+          <mxGeometry y="26" width="220" height="74" as="geometry" />
+        </mxCell>
+        <mxCell id="gOkglkHOGyMFSGOslpvL-35" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;endArrow=open;endFill=0;" edge="1" parent="Gv3ldSOWGJSYCYZ-ROL5-1" source="gOkglkHOGyMFSGOslpvL-34" target="gOkglkHOGyMFSGOslpvL-1">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="813" y="807" />
+              <mxPoint x="813" y="547" />
+              <mxPoint x="603" y="547" />
+              <mxPoint x="603" y="807" />
+            </Array>
+          </mxGeometry>
         </mxCell>
       </root>
     </mxGraphModel>
