@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-09-28T21:05:08.366Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/94.0.4606.61 Safari/537.36" etag="1WFhVx69TthSxqSYZjQa" version="15.3.4" type="github" pages="6">
+<mxfile host="app.diagrams.net" modified="2021-10-01T20:03:50.609Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/94.0.4606.61 Safari/537.36" etag="yWSxF42n8lPEBRcsPxCc" version="15.3.4" type="github" pages="7">
   <diagram id="Kxp6poQEY132oB3bIeXi" name="Creational: Factory pattern">
     <mxGraphModel dx="1422" dy="762" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
       <root>
@@ -391,6 +391,14 @@
         <mxCell id="2p7d_ibuN1Clv4Nh2IMz-22" value="+ MyPictiure.ShowPictureDVA()&#xa;+ MyPictiure.ApplySettingsDVA();;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="2p7d_ibuN1Clv4Nh2IMz-19">
           <mxGeometry y="60" width="190" height="40" as="geometry" />
         </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram id="uMHAcRxyM3NnXvxOnp-t" name="Structural Bridge">
+    <mxGraphModel dx="1422" dy="762" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
+      <root>
+        <mxCell id="khlKPkUQStV_kTjKQvij-0" />
+        <mxCell id="khlKPkUQStV_kTjKQvij-1" parent="khlKPkUQStV_kTjKQvij-0" />
       </root>
     </mxGraphModel>
   </diagram>
