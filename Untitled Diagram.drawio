@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-10-06T20:16:22.738Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/94.0.4606.61 Safari/537.36" etag="4z8aqbJAkqYC3TehKvWt" version="15.4.3" type="github" pages="8">
+<mxfile host="app.diagrams.net" modified="2021-10-06T21:40:40.469Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/94.0.4606.61 Safari/537.36" etag="S5guqVSuqeU2GIdWzaFC" version="15.4.3" type="github" pages="9">
   <diagram id="Kxp6poQEY132oB3bIeXi" name="Creational: Factory pattern">
     <mxGraphModel dx="1422" dy="762" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
       <root>
@@ -634,6 +634,86 @@
         </mxCell>
         <mxCell id="LrK8SD1jshGJ4qzIg6co-26" value="+ MainClass:(String[]): void" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" parent="LrK8SD1jshGJ4qzIg6co-25" vertex="1">
           <mxGeometry y="26" width="160" height="26" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram id="vdRaVxAYX872uEyR_y5d" name="Structural decorator pattern">
+    <mxGraphModel dx="981" dy="526" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
+      <root>
+        <mxCell id="g1Wn8jsI82S6kKVQ7eHG-0" />
+        <mxCell id="g1Wn8jsI82S6kKVQ7eHG-1" parent="g1Wn8jsI82S6kKVQ7eHG-0" />
+        <mxCell id="g1Wn8jsI82S6kKVQ7eHG-2" value="Interface Phone" style="swimlane;fontStyle=1;childLayout=stackLayout;horizontal=1;startSize=26;fillColor=none;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;" vertex="1" parent="g1Wn8jsI82S6kKVQ7eHG-1">
+          <mxGeometry x="560" y="240" width="140" height="52" as="geometry" />
+        </mxCell>
+        <mxCell id="g1Wn8jsI82S6kKVQ7eHG-3" value="+ baseFunction():   void" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="g1Wn8jsI82S6kKVQ7eHG-2">
+          <mxGeometry y="26" width="140" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="g1Wn8jsI82S6kKVQ7eHG-14" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.338;entryY=1.024;entryDx=0;entryDy=0;entryPerimeter=0;endArrow=open;endFill=0;startArrow=diamondThin;startFill=0;startSize=18;" edge="1" parent="g1Wn8jsI82S6kKVQ7eHG-1" source="g1Wn8jsI82S6kKVQ7eHG-9" target="g1Wn8jsI82S6kKVQ7eHG-3">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="g1Wn8jsI82S6kKVQ7eHG-9" value="Class PhoneDecorator" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;" vertex="1" parent="g1Wn8jsI82S6kKVQ7eHG-1">
+          <mxGeometry x="440" y="357" width="190" height="112" as="geometry" />
+        </mxCell>
+        <mxCell id="g1Wn8jsI82S6kKVQ7eHG-10" value="+ phone: Phone    " style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="g1Wn8jsI82S6kKVQ7eHG-9">
+          <mxGeometry y="26" width="190" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="g1Wn8jsI82S6kKVQ7eHG-11" value="" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;" vertex="1" parent="g1Wn8jsI82S6kKVQ7eHG-9">
+          <mxGeometry y="52" width="190" height="8" as="geometry" />
+        </mxCell>
+        <mxCell id="g1Wn8jsI82S6kKVQ7eHG-13" value="+ PhoneDecorator(Phone):" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="g1Wn8jsI82S6kKVQ7eHG-9">
+          <mxGeometry y="60" width="190" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="g1Wn8jsI82S6kKVQ7eHG-12" value="+ baseFunction(): void" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="g1Wn8jsI82S6kKVQ7eHG-9">
+          <mxGeometry y="86" width="190" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="g1Wn8jsI82S6kKVQ7eHG-19" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.668;entryY=0.971;entryDx=0;entryDy=0;entryPerimeter=0;startArrow=none;startFill=0;endArrow=block;endFill=0;startSize=18;dashed=1;" edge="1" parent="g1Wn8jsI82S6kKVQ7eHG-1" source="g1Wn8jsI82S6kKVQ7eHG-15" target="g1Wn8jsI82S6kKVQ7eHG-3">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="g1Wn8jsI82S6kKVQ7eHG-15" value="Class PushBattonPhone" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=26;fillColor=none;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;" vertex="1" parent="g1Wn8jsI82S6kKVQ7eHG-1">
+          <mxGeometry x="700" y="357" width="150" height="52" as="geometry" />
+        </mxCell>
+        <mxCell id="g1Wn8jsI82S6kKVQ7eHG-16" value="+ baseFunction(): void" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="g1Wn8jsI82S6kKVQ7eHG-15">
+          <mxGeometry y="26" width="150" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="g1Wn8jsI82S6kKVQ7eHG-26" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.412;entryY=1.033;entryDx=0;entryDy=0;entryPerimeter=0;startArrow=none;startFill=0;endArrow=block;endFill=1;startSize=18;" edge="1" parent="g1Wn8jsI82S6kKVQ7eHG-1" source="g1Wn8jsI82S6kKVQ7eHG-20" target="g1Wn8jsI82S6kKVQ7eHG-12">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="g1Wn8jsI82S6kKVQ7eHG-20" value="Class FlagmanSmartPhone" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;" vertex="1" parent="g1Wn8jsI82S6kKVQ7eHG-1">
+          <mxGeometry x="370" y="540" width="190" height="138" as="geometry" />
+        </mxCell>
+        <mxCell id="g1Wn8jsI82S6kKVQ7eHG-21" value="+ phone: Phone" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="g1Wn8jsI82S6kKVQ7eHG-20">
+          <mxGeometry y="26" width="190" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="g1Wn8jsI82S6kKVQ7eHG-22" value="" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;" vertex="1" parent="g1Wn8jsI82S6kKVQ7eHG-20">
+          <mxGeometry y="52" width="190" height="8" as="geometry" />
+        </mxCell>
+        <mxCell id="g1Wn8jsI82S6kKVQ7eHG-23" value="+ FlagmanSmartPhone(Phone)" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontStyle=0" vertex="1" parent="g1Wn8jsI82S6kKVQ7eHG-20">
+          <mxGeometry y="60" width="190" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="g1Wn8jsI82S6kKVQ7eHG-24" value="+ flagmanOptions(): void" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontStyle=0" vertex="1" parent="g1Wn8jsI82S6kKVQ7eHG-20">
+          <mxGeometry y="86" width="190" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="g1Wn8jsI82S6kKVQ7eHG-25" value="+ baseFunction(): void" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontStyle=0" vertex="1" parent="g1Wn8jsI82S6kKVQ7eHG-20">
+          <mxGeometry y="112" width="190" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="g1Wn8jsI82S6kKVQ7eHG-33" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.632;entryY=1.038;entryDx=0;entryDy=0;entryPerimeter=0;startArrow=none;startFill=0;endArrow=block;endFill=1;startSize=18;" edge="1" parent="g1Wn8jsI82S6kKVQ7eHG-1" source="g1Wn8jsI82S6kKVQ7eHG-27" target="g1Wn8jsI82S6kKVQ7eHG-12">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="g1Wn8jsI82S6kKVQ7eHG-27" value="Class SmartPhone" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;" vertex="1" parent="g1Wn8jsI82S6kKVQ7eHG-1">
+          <mxGeometry x="585" y="540" width="190" height="112" as="geometry" />
+        </mxCell>
+        <mxCell id="g1Wn8jsI82S6kKVQ7eHG-28" value="+ SmartPhone(Phone)" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="g1Wn8jsI82S6kKVQ7eHG-27">
+          <mxGeometry y="26" width="190" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="g1Wn8jsI82S6kKVQ7eHG-29" value="" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;" vertex="1" parent="g1Wn8jsI82S6kKVQ7eHG-27">
+          <mxGeometry y="52" width="190" height="8" as="geometry" />
+        </mxCell>
+        <mxCell id="g1Wn8jsI82S6kKVQ7eHG-31" value="+ smartOptions(): void" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontStyle=0" vertex="1" parent="g1Wn8jsI82S6kKVQ7eHG-27">
+          <mxGeometry y="60" width="190" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="g1Wn8jsI82S6kKVQ7eHG-32" value="+ baseFunction(): void" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontStyle=0" vertex="1" parent="g1Wn8jsI82S6kKVQ7eHG-27">
+          <mxGeometry y="86" width="190" height="26" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
