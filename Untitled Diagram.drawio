@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-10-15T20:55:44.612Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/94.0.4606.81 Safari/537.36" etag="A2HfuuGtJRTagoFEsqt-" version="15.5.0" type="github" pages="12">
+<mxfile host="app.diagrams.net" modified="2021-10-16T15:00:52.332Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/94.0.4606.81 Safari/537.36" etag="4ykoFoPOgf18gkiA9zb_" version="15.5.0" type="github" pages="12">
   <diagram id="Kxp6poQEY132oB3bIeXi" name="Creational: Factory pattern">
     <mxGraphModel dx="1422" dy="762" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
       <root>
@@ -797,7 +797,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="ScI1_qbcZBJWoBaHCcdV" name="Structural Flyweight Pattern">
-    <mxGraphModel dx="981" dy="526" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
+    <mxGraphModel dx="650" dy="401" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
       <root>
         <mxCell id="-HWOOSCtGkdZNCX2_MUN-0" />
         <mxCell id="-HWOOSCtGkdZNCX2_MUN-1" parent="-HWOOSCtGkdZNCX2_MUN-0" />
@@ -915,7 +915,7 @@
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="8udMMu_tfyInduw0ouJS-12" value="Class Proxy" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;" vertex="1" parent="8udMMu_tfyInduw0ouJS-1">
-          <mxGeometry x="620" y="390" width="160" height="138" as="geometry" />
+          <mxGeometry x="630" y="390" width="160" height="138" as="geometry" />
         </mxCell>
         <mxCell id="8udMMu_tfyInduw0ouJS-13" value="+ file: String" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="8udMMu_tfyInduw0ouJS-12">
           <mxGeometry y="26" width="160" height="26" as="geometry" />
@@ -936,7 +936,7 @@
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="8udMMu_tfyInduw0ouJS-21" value="&lt;b&gt;Client&lt;/b&gt;&lt;br&gt;MainProxy" style="html=1;" vertex="1" parent="8udMMu_tfyInduw0ouJS-1">
-          <mxGeometry x="645" y="620" width="110" height="50" as="geometry" />
+          <mxGeometry x="655" y="620" width="110" height="50" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
