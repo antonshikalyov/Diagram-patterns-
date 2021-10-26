@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2021-10-22T22:20:15.912Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/94.0.4606.81 Safari/537.36" etag="iIuAS5ja_XmPPoc4rtdk" version="15.5.8" type="github" pages="15">
+<mxfile host="app.diagrams.net" modified="2021-10-26T21:20:56.781Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/94.0.4606.81 Safari/537.36" etag="2GGRkK_37ZLevlAAPzEF" version="15.5.8" type="github" pages="16">
   <diagram id="Kxp6poQEY132oB3bIeXi" name="Creational: Factory pattern">
-    <mxGraphModel dx="1422" dy="762" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
+    <mxGraphModel dx="942" dy="582" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -1213,6 +1213,14 @@
         <mxCell id="9c3HtDX5taxqAdIwrmiT-19" value="+ iterator:     iterator" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="9c3HtDX5taxqAdIwrmiT-16">
           <mxGeometry y="86" width="160" height="26" as="geometry" />
         </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram id="88XPfc5moxN1sP_E2Nfl" name="Behavioral Mediator Pattern">
+    <mxGraphModel dx="1108" dy="685" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
+      <root>
+        <mxCell id="_5V-d3P8bXWyiOatMvXf-0" />
+        <mxCell id="_5V-d3P8bXWyiOatMvXf-1" parent="_5V-d3P8bXWyiOatMvXf-0" />
       </root>
     </mxGraphModel>
   </diagram>
