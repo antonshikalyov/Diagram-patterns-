@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-11-02T22:14:30.223Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/95.0.4638.54 Safari/537.36" etag="FnPmvLoztfcM0qYEqEjo" version="15.6.6" type="github" pages="19">
+<mxfile host="app.diagrams.net" modified="2021-11-02T22:20:50.544Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/95.0.4638.54 Safari/537.36" etag="Lv3oRY6NuxFx8lOXyGNz" version="15.6.6" type="github" pages="19">
   <diagram id="Kxp6poQEY132oB3bIeXi" name="Creational: Factory pattern">
     <mxGraphModel dx="1422" dy="762" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
       <root>
@@ -1465,10 +1465,74 @@
     </mxGraphModel>
   </diagram>
   <diagram id="sxRh_I8GSDYBVcHWz73p" name="Behavioral Pattern State">
-    <mxGraphModel dx="1422" dy="762" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
+    <mxGraphModel dx="677" dy="363" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
       <root>
         <mxCell id="NH-NyeiOPrkNpoorFRId-0" />
         <mxCell id="NH-NyeiOPrkNpoorFRId-1" parent="NH-NyeiOPrkNpoorFRId-0" />
+        <mxCell id="NH-NyeiOPrkNpoorFRId-2" value="Action" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=26;fillColor=none;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;strokeColor=default;fontColor=default;" vertex="1" parent="NH-NyeiOPrkNpoorFRId-1">
+          <mxGeometry x="515" y="150" width="140" height="52" as="geometry" />
+        </mxCell>
+        <mxCell id="NH-NyeiOPrkNpoorFRId-3" value="+ show(): void" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontColor=default;" vertex="1" parent="NH-NyeiOPrkNpoorFRId-2">
+          <mxGeometry y="26" width="140" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="NH-NyeiOPrkNpoorFRId-14" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=-0.001;entryY=-0.071;entryDx=0;entryDy=0;entryPerimeter=0;fontColor=default;dashed=1;strokeColor=default;labelBackgroundColor=default;endArrow=block;endFill=0;" edge="1" parent="NH-NyeiOPrkNpoorFRId-1" source="NH-NyeiOPrkNpoorFRId-6" target="NH-NyeiOPrkNpoorFRId-3">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="NH-NyeiOPrkNpoorFRId-6" value="Discovery" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;fontColor=default;strokeColor=default;fillColor=default;" vertex="1" parent="NH-NyeiOPrkNpoorFRId-1">
+          <mxGeometry x="280" y="260" width="160" height="52" as="geometry" />
+        </mxCell>
+        <mxCell id="NH-NyeiOPrkNpoorFRId-9" value="+ show(): void" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontColor=default;" vertex="1" parent="NH-NyeiOPrkNpoorFRId-6">
+          <mxGeometry y="26" width="160" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="NH-NyeiOPrkNpoorFRId-15" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.496;entryY=1.009;entryDx=0;entryDy=0;entryPerimeter=0;dashed=1;labelBackgroundColor=default;fontColor=default;endArrow=block;endFill=0;strokeColor=default;" edge="1" parent="NH-NyeiOPrkNpoorFRId-1" source="NH-NyeiOPrkNpoorFRId-10" target="NH-NyeiOPrkNpoorFRId-3">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="NH-NyeiOPrkNpoorFRId-10" value="NEWS" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;fontColor=default;strokeColor=default;fillColor=default;" vertex="1" parent="NH-NyeiOPrkNpoorFRId-1">
+          <mxGeometry x="505" y="260" width="160" height="52" as="geometry" />
+        </mxCell>
+        <mxCell id="NH-NyeiOPrkNpoorFRId-11" value="+ show(): void" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontColor=default;" vertex="1" parent="NH-NyeiOPrkNpoorFRId-10">
+          <mxGeometry y="26" width="160" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="NH-NyeiOPrkNpoorFRId-16" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;dashed=1;labelBackgroundColor=default;fontColor=default;endArrow=block;endFill=0;strokeColor=default;exitX=0.5;exitY=0;exitDx=0;exitDy=0;" edge="1" parent="NH-NyeiOPrkNpoorFRId-1" source="NH-NyeiOPrkNpoorFRId-12" target="NH-NyeiOPrkNpoorFRId-2">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="NH-NyeiOPrkNpoorFRId-12" value="QTW" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;fontColor=default;strokeColor=default;fillColor=default;" vertex="1" parent="NH-NyeiOPrkNpoorFRId-1">
+          <mxGeometry x="730" y="260" width="160" height="52" as="geometry" />
+        </mxCell>
+        <mxCell id="NH-NyeiOPrkNpoorFRId-13" value="+ show(): void" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontColor=default;" vertex="1" parent="NH-NyeiOPrkNpoorFRId-12">
+          <mxGeometry y="26" width="160" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="NH-NyeiOPrkNpoorFRId-22" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;labelBackgroundColor=default;fontColor=default;endArrow=open;endFill=0;strokeColor=default;startArrow=diamondThin;startFill=0;startSize=14;" edge="1" parent="NH-NyeiOPrkNpoorFRId-1" source="NH-NyeiOPrkNpoorFRId-17" target="NH-NyeiOPrkNpoorFRId-3">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="NH-NyeiOPrkNpoorFRId-23" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.495;entryY=0.973;entryDx=0;entryDy=0;entryPerimeter=0;labelBackgroundColor=default;fontColor=default;startArrow=none;startFill=0;endArrow=open;endFill=0;startSize=14;strokeColor=default;exitX=0.688;exitY=0;exitDx=0;exitDy=0;exitPerimeter=0;dashed=1;" edge="1" parent="NH-NyeiOPrkNpoorFRId-1" source="NH-NyeiOPrkNpoorFRId-17" target="NH-NyeiOPrkNpoorFRId-13">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="NH-NyeiOPrkNpoorFRId-24" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.473;entryY=1.009;entryDx=0;entryDy=0;entryPerimeter=0;dashed=1;labelBackgroundColor=default;fontColor=default;startArrow=none;startFill=0;endArrow=open;endFill=0;startSize=14;strokeColor=default;" edge="1" parent="NH-NyeiOPrkNpoorFRId-1" target="NH-NyeiOPrkNpoorFRId-11">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="710" y="390" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="NH-NyeiOPrkNpoorFRId-25" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.432;entryY=1.009;entryDx=0;entryDy=0;entryPerimeter=0;dashed=1;labelBackgroundColor=default;fontColor=default;startArrow=none;startFill=0;endArrow=open;endFill=0;startSize=14;strokeColor=default;" edge="1" parent="NH-NyeiOPrkNpoorFRId-1" target="NH-NyeiOPrkNpoorFRId-9">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="710" y="390" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="NH-NyeiOPrkNpoorFRId-17" value="TV" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;labelBackgroundColor=default;fontColor=default;strokeColor=default;fillColor=default;" vertex="1" parent="NH-NyeiOPrkNpoorFRId-1">
+          <mxGeometry x="600" y="390" width="160" height="112" as="geometry" />
+        </mxCell>
+        <mxCell id="NH-NyeiOPrkNpoorFRId-18" value="+ action: Action" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;labelBackgroundColor=default;fontColor=default;" vertex="1" parent="NH-NyeiOPrkNpoorFRId-17">
+          <mxGeometry y="26" width="160" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="NH-NyeiOPrkNpoorFRId-19" value="" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;labelBackgroundColor=default;fontColor=default;" vertex="1" parent="NH-NyeiOPrkNpoorFRId-17">
+          <mxGeometry y="52" width="160" height="8" as="geometry" />
+        </mxCell>
+        <mxCell id="NH-NyeiOPrkNpoorFRId-20" value="+ switchChannel(): void" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;labelBackgroundColor=default;fontColor=default;" vertex="1" parent="NH-NyeiOPrkNpoorFRId-17">
+          <mxGeometry y="60" width="160" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="NH-NyeiOPrkNpoorFRId-21" value="+ show(): void" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;labelBackgroundColor=default;fontColor=default;" vertex="1" parent="NH-NyeiOPrkNpoorFRId-17">
+          <mxGeometry y="86" width="160" height="26" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
