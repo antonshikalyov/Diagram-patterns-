@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-11-05T20:09:44.605Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/95.0.4638.69 Safari/537.36" etag="HWNRTlFkhUxUHHgeBMWe" version="15.6.8" type="github" pages="23">
+<mxfile host="app.diagrams.net" modified="2021-11-09T23:42:00.208Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/95.0.4638.69 Safari/537.36" etag="NBM42_rqJzL5Hzf_Brhu" version="15.7.0" type="github" pages="24">
   <diagram id="Kxp6poQEY132oB3bIeXi" name="Creational: Factory pattern">
     <mxGraphModel dx="1422" dy="762" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
       <root>
@@ -1901,6 +1901,14 @@
         <mxCell id="xXlf8qJ_cvNsLdMjMOeP-31" value="+ BadCustomer(): Expresion" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="xXlf8qJ_cvNsLdMjMOeP-28">
           <mxGeometry y="78" width="200" height="26" as="geometry" />
         </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram id="qfZNR-RqJzxHZ6vCY_dx" name="Page-24">
+    <mxGraphModel dx="1422" dy="762" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
+      <root>
+        <mxCell id="45vy04qfkZuunHUr6f_1-0" />
+        <mxCell id="45vy04qfkZuunHUr6f_1-1" parent="45vy04qfkZuunHUr6f_1-0" />
       </root>
     </mxGraphModel>
   </diagram>
